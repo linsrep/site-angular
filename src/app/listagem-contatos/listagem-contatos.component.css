@@ -1,0 +1,12 @@
+.list li {
+  list-style:decimal;
+  margin-left: 15px;
+  line-height: 2.5rem;
+}
+
+@media screen and (max-width: 650px) {
+  .list li{
+    margin-left: -5px;
+    font-size: .8em;
+  }
+}

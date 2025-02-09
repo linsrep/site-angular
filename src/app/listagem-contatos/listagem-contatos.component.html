@@ -1,0 +1,5 @@
+<ul class="list">
+  @for (c of contatos; track c.id) {
+    <li id="{{ c.id }}">{{ c.name }} | WhatsApp: {{ c.whatsapp }} </li>
+  }
+</ul>
